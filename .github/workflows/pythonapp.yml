@@ -27,3 +27,8 @@ jobs:
     - name: Test with unittest
       run: |
         python test_code.py
+      env:
+        secret2: dogs
+        secret3: mouse
+        secret1: monkeys
+        some_other_secret: cats
