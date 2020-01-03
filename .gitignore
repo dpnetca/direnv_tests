@@ -1,0 +1,11 @@
+.vscode
+.direnv_test
+.venv
+__pycache__
+
+
+.envrc
+.direnv/
+.env
+
+secret.*
