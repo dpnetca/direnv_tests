@@ -4,11 +4,6 @@ python:
   - "3.8.1"
 install:
   - pip install -r requirements.txt
-env:
-  - secret2=dogs
-  - secret3=mouse
-  - secret1=monkeys
-  - some_other_secret=cats
 
 script:
   python test_code.py
